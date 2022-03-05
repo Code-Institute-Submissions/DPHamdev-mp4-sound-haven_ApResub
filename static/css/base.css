@@ -84,6 +84,10 @@ body {
     background-color: #000 !important;
 }
 
+.bg-white {
+    background-color: #fff !important;
+}
+
 hr {
     width: 100%;
     color: white;
