@@ -3,17 +3,23 @@ from .models import Product, Category
 
 # Register your models here.
 
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
-        'sku',
+        'product_id',
         'name',
         'category',
         'price',
         'rating',
         'image',
+        'brand_title',
+        'title',
+        'description',
+        'description_header',
     )
 
-    ordering = ('sku',)
+    ordering = ('product_id',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (

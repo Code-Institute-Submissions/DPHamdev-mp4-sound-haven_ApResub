@@ -13,25 +13,60 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Clothing
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="guitar-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Guitar
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Activewear &amp; Essentials</a>
-                <a href="" class="dropdown-item">Jeans</a>
-                <a href="" class="dropdown-item">Shirts</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+            <div class="dropdown-menu border-0" aria-labelledby="guitar-link">
+                <a href="{% url 'products' %}?category=acoustic_guitar" class="dropdown-item">Acoustic Guitars</a>
+                <a href="{% url 'products' %}?category=electric_guitar" class="dropdown-item">Electric Guitars</a>
+                <a href="{% url 'products' %}?category=electric_guitar,acoustic_guitar" class="dropdown-item">All Guitars</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Homeware
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="bass-guitar-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Bass Guitar
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="" class="dropdown-item">All Homeware</a>
+            <div class="dropdown-menu border-0" aria-labelledby="bass-guitar-link">
+                <a href="{% url 'products' %}?category=bass_guitar" class="dropdown-item">Bass Guitars</a>
+                <a href="{% url 'products' %}?category=bass_guitar,acoustic_bass" class="dropdown-item">All Bass Guitars</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="amps-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Amplifiers
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="amps-link">
+                <a href="{% url 'products' %}?category=guitar_amps" class="dropdown-item">Guitar Amps</a>
+                <a href="{% url 'products' %}?category=bass_guitar_amps" class="dropdown-item">Bass Guitar Amps</a>
+                <a href="{% url 'products' %}?category=acoustic_amps" class="dropdown-item">Acoustic Guitar/Bass Amps</a>
+                <a href="{% url 'products' %}?category=guitar_amps,acoustic_amps,bass_guitar_amps" class="dropdown-item">All Amps</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="drums-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Drums
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="drums-link">
+                <a href="{% url 'products' %}?category=acoustic_drums" class="dropdown-item">Acoustic Drums</a>
+                <a href="{% url 'products' %}?category=cymbals" class="dropdown-item">Cymbals</a>
+                <a href="{% url 'products' %}?category=acoustic_drums,cymbals" class="dropdown-item">All Drums</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="essentials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Essentials
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="essentials-link">
+                <a href="{% url 'products' %}?category=acoustic_strings" class="dropdown-item">Acoustic Guitar/Bass Strings</a>
+                <a href="{% url 'products' %}?category=electric_strings" class="dropdown-item">Electric Guitar/Bass Strings</a>
+                <a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
+                <a href="{% url 'products' %}?category=drum_sticks" class="dropdown-item">Drum Sticks</a>
+                <a href="{% url 'products' %}?category=drum_heads" class="dropdown-item">Drum Heads</a>
+                <a href="{% url 'products' %}?category=drum_heads,drum_sticks,plectrums,cables,electric_strings,acoustic_strings" class="dropdown-item">All Essentials</a>
             </div>
         </li>
 

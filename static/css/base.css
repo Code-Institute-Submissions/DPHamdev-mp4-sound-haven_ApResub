@@ -84,6 +84,11 @@ body {
     background-color: #000 !important;
 }
 
+hr {
+    width: 100%;
+    color: white;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
