@@ -274,7 +274,7 @@
         "title": "REMO Emperor Coated Tom/ Snare/ Floortom head",
         "description": "",
         "description_header": null}},
-    {"pk": 23, "model": "products.product", "fields": {
+    {"pk": 24, "model": "products.product", "fields": {
         "product_id": "1634",
         "name": "REMO Emperor Clear Tom/ Snare/ Floortom head",
         "price": 18.99, 
@@ -286,8 +286,7 @@
         "title": "REMO Emperor Clear Tom/ Snare/ Floortom head",
         "description": "",
         "description_header": null}},
-    
-    {"pk": 24, "model": "products.product", "fields": {
+    {"pk": 25, "model": "products.product", "fields": {
         "product_id": "17092",
         "name": "Pair of Hickory Sticks, V series \/7A - Wooden Tip",
         "price": 11.99, 
@@ -299,7 +298,7 @@
         "title": "Pair of Hickory Sticks, V series \/7A - Wooden Tip",
         "description": "",
         "description_header": null}},
-    {"pk": 25, "model": "products.product", "fields": {
+    {"pk": 26, "model": "products.product", "fields": {
         "product_id": "17091",
         "name": "Pair of Hickory Sticks, V series\/5B - Wooden Tip",
         "price": 11.99, 
@@ -311,7 +310,7 @@
         "title": "Pair of Hickory Sticks, V series\/5B - Wooden Tip",
         "description": "",
         "description_header": null}},        
-    {"pk": 26, "model": "products.product", "fields": {
+    {"pk": 27, "model": "products.product", "fields": {
         "product_id": "18106",
         "name": "Instrument cable, jack/jack (m/m), 3 m (10\"), coiled, S-series",
         "price": 23.99, 
@@ -323,7 +322,7 @@
         "title": "Instrument cable, jack\/jack (m\/m), 3 m (10\"), coiled, S-series",
         "description": "- Type: Instrument cable\n- Coiled cable: Yes \n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive\n- Colour: Black",
         "description_header": "- Type: Instrument cable\n- Coiled cable: Yes \n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive\n- Colour: Black"}},
-    {"pk": 27, "model": "products.product", "fields": {
+    {"pk": 28, "model": "products.product", "fields": {
         "product_id": "23644",
         "name": "Instrument cable, jack/jack (m/m), 3 m (10\"), heavy-duty connectors, red, S-series",
         "price": 10.99, 
@@ -335,7 +334,7 @@
         "title": "Instrument cable, jack\/jack (m\/m), 3 m (10\"), heavy-duty connectors, red, S-series",
         "description": "- Type: Instrument cable\n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive",
         "description_header": "- Type: Instrument cable\n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive"}},
-    {"pk": 28, "model": "products.product", "fields": {
+    {"pk": 29, "model": "products.product", "fields": {
         "product_id": "13492",
         "name": "Bronze set of strings for acoustic guitar",
         "price": 13.99, 
@@ -347,7 +346,7 @@
         "title": "Bronze set of strings for acoustic guitar",
         "description": "",
         "description_header": null}},
-    {"pk": 29, "model": "products.product", "fields": {
+    {"pk": 30, "model": "products.product", "fields": {
         "product_id": "13480",
         "name": "Bronze set of strings for acoustic guitar",
         "price": 13.99, 
@@ -359,7 +358,7 @@
         "title": "Bronze set of strings for acoustic guitar",
         "description": "",
         "description_header": null}},
-    {"pk": 30, "model": "products.product", "fields": {
+    {"pk": 31, "model": "products.product", "fields": {
         "product_id": "13486",
         "name": "Nickel plated steel set of strings for Electric guitar",
         "price": 13.99, 
@@ -371,7 +370,7 @@
         "title": "Nickel plated steel set of strings for Electric guitar",
         "description": "",
         "description_header": null}},
-    {"pk": 31, "model": "products.product", "fields": {
+    {"pk": 32, "model": "products.product", "fields": {
         "product_id": "9952",
         "name": "Nickel plated steel set of strings for electric guitar",
         "price": 13.99, 
@@ -383,7 +382,7 @@
         "title": "Nickel plated steel set of strings for electric guitar",
         "description": "",
         "description_header": null}},
-    {"pk": 32, "model": "products.product", "fields": {
+    {"pk": 33, "model": "products.product", "fields": {
         "product_id": "13490",
         "name": "Nickel round wound set of strings for electric Bass guitar",
         "price": 23.99, 
@@ -395,7 +394,7 @@
         "title": "Nickel round wound set of strings for electric Bass guitar",
         "description": "",
         "description_header": null}},
-    {"pk": 33, "model": "products.product", "fields": {
+    {"pk": 34, "model": "products.product", "fields": {
         "product_id": "9954",
         "name": "Nickel round wound set of strings for electric bass guitar",
         "price": 19.99, 
