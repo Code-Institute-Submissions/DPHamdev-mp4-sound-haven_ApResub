@@ -26,6 +26,7 @@ class Product(models.Model):
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
     brand_title = models.CharField(max_length=254, null=True, blank=True)
+    units_sold = models.IntegerField(default=0, null=False, blank=False)
     title = models.CharField(max_length=254)
     description_header = models.TextField(null=True, blank=True)
 

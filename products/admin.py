@@ -13,6 +13,7 @@ class ProductAdmin(admin.ModelAdmin):
         'rating',
         'image',
         'brand_title',
+        'units_sold',
         'title',
         'description',
         'description_header',
