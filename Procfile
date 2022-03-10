@@ -1,1 +1,1 @@
-web: gunicorn sound_haven.wsgi:application
+web: gunicorn mp4-sound-haven.wsgi:application
