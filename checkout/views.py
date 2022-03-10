@@ -1,20 +1,18 @@
-
-
 from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
 
-from .forms import OrderForm
-from .models import Order, OrderLineItem
 from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
 from cart.context import cart_contents
+from .forms import OrderForm
+from .models import Order, OrderLineItem
 
 import stripe
-
 import json
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -79,6 +77,11 @@ def checkout(request):
                                 product_size=size,
                             )
                             order_line_item.save()
+                    
+                    product = Product.objects.get(pk=item_id)
+                    product.units_sold += order_line_item.quantity
+                    product.save()
+
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your cart wasn't found in our database. "
@@ -146,7 +149,6 @@ def checkout_success(request, order_number):
     """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
-    order_line = OrderLineItem.objects.get(order=order)
 
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
@@ -169,9 +171,7 @@ def checkout_success(request, order_number):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
-        product = Product.objects.get(pk=order_line.product.id)
-        product.units_sold += order_line.quantity
-        product.save()
+        
 
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
