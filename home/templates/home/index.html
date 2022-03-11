@@ -37,11 +37,13 @@
 
     <section>
         <div class="container my-5">
-            <h3 class="text-headings">Check Out Our Best Sellers!</h3>
+            <div class="row bg-black text-center ">
+                <h3 class="m-1 text-white" >SOME OF OUR BEST SELLERS</h3>
+            </div>
             <div class="main-carousel" 
-                data-flickity='{ "wrapAround": true, "imagesLoaded": true }'>
+                data-flickity='{ "wrapAround": true, "imagesLoaded": true, "resize": false }'>
                 {% for product in products %}
-                    <div class="card me-2">
+                    <div class="card h-100 me-2">
                         <div>
                             <!-- Product's image -->
                             {% if product.image %}
@@ -57,13 +59,13 @@
                             {% endif %}
                         </div>
                         <!-- Product's information -->
-                        <div class="card-body pt-1 ps-0 pb-0">
+                        <div class="card-body pt-1 ps-1 pb-0">
                             <p class="card-text mb-0">{{ product.name }}</p>
                         </div>
-                        <div class="card-footer bg-white ps-0 pt-0 border-0 text-left">
+                        <div class="card-footer bg-white ps-1 pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    <p class="mb-0 text-start fw-bold">£{{ product.price }}</p>
+                                    <p class="mb-0 text-star fw-bold">£{{ product.price }}</p>
                                     {% if product.rating %}
                                         <small class="text-muted"><i class="fas fa-star mr-1"></i>
                                             {{ product.rating }} / 5
@@ -79,4 +81,83 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="container">
+            <div class="row bg-black text-center ">
+                <h3 class="m-1 text-white" >SHOP BY BRAND</h3>
+            </div>
+            <div class="row">
+                <div class="text-center col card bg-white">
+                    <a class="m-auto" class="w-100" href="{% url 'products' %}?brand_title=STAGG">
+                        <img id="brand-logo" class="img-fluid" src="/media/STAGG.png" alt="">
+                    </a>
+                </div>
+                <div class="text-center col card bg-white">
+                    <a class="m-auto" href="{% url 'products' %}?brand_title=REMO">
+                        <img id="brand-logo" class="img-fluid" src="/media/REMO.png" alt="">
+                    </a>
+                </div>
+                <div class="text-center col card bg-white">
+                    <a class="mt-5" href="{% url 'products' %}?brand_title=BRITISH_DRUM_CO">
+                        <img id="brand-logo" class="img-fluid" src="/media/BDC.png" alt="">
+                    </a>
+                </div>
+                <div class="text-center col card bg-white">
+                    <a class="m-auto" href="{% url 'products' %}?brand_title=GIBSON">
+                        <img id="brand-logo" class="img-fluid" src="/media/gibson-logo.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {% endblock %}
+    {% block postloadjs %}
+    {{ block.super }}
+    <script>
+        $(document).ready(function(){
+            $('.your-class').slick({
+                setting-name: setting-value
+            });
+        });
+
+        $('.responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+
 {% endblock %}
+

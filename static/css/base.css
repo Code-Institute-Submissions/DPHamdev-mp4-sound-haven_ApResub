@@ -124,7 +124,13 @@ a.category-badge > span.badge:hover {
     font-size: 0.8rem;
     margin-bottom: 2rem;
     border: none;
-    height: inherit;
+}
+
+#brand-logo {
+    max-height: 75%;
+    max-width: 75%;
+    object-fit: contain;
+    margin-bottom: 0px !important;
 }
 
 .btt-link,
