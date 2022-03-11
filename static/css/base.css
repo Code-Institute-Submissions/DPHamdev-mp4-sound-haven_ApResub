@@ -12,6 +12,17 @@ body {
     font-family: 'Rajdhani', 'Courier New', Courier, monospace;
 }
 
+.social-circle {
+    width: 40px;
+    height: 40px;
+    padding: 0.75rem;
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -62,6 +73,16 @@ body {
 .btn-white:focus {
     background: #fff;
     color: black;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+    color: #7a413b;
+}
+
+footer {
+    font-size: 14px;
 }
 
 .text-black {
@@ -301,6 +322,7 @@ input[name='q']::placeholder {
     max-width: 80%;
   }
 }
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {

@@ -1,0 +1,78 @@
+<footer class="mt-auto">
+    <div class="bg-beige">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-4 col-md-3">
+                    <p class="text-uppercase m-0"><strong>shop</strong></p>
+                    <ul class="list-unstyled">
+                        <li class="mt-2"><a href="{% url 'home' %}">Home</a></li>
+                        <li class="mt-2"><a href="{% url 'products' %}?category=electric_guitar,acoustic_guitar">Guitar</a></li>
+                        <li class="mt-2"><a href="{% url 'products' %}?category=bass_guitar,acoustic_bass">Bass Guitar</a></li>
+                        <li class="mt-2"><a href="{% url 'products' %}?category=guitar_amps,acoustic_amps,bass_guitar_amps">Guitar Amps</a></li>
+                        <li class="mt-2"><a href="{% url 'products' %}?category=acoustic_drums,cymbals">Drums</a></li>
+                        <li class="mt-2"><a href="{% url 'products' %}?category=drum_heads,drum_sticks,plectrums,cables,electric_strings,acoustic_strings">Essentials</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-md-3">
+                    <p class="text-uppercase m-0"><strong>Customer Service</strong></p>
+                    <ul class="list-unstyled">
+                        <li class="mt-2"><a href="#">FAQ</a></li>
+                        <li class="mt-2"><a href="#">Contact Us</a></li>
+                        {% if request.user.is_authenticated %}
+                            <li class="mt-2"><a href="{% url 'profile' %}">My Account</a></li>
+                        {% else %}
+                            <li class="mt-2"><a href="{% url 'account_signup' %}">Sign Up</a></li>
+                            <li class="mt-2"><a href="{% url 'account_login' %}">Log In</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center mt-3 mt-md-0">
+                    <ul class="list-unstyled list-inline w-100 d-flex justify-content-around">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" role="button" class="btn social-circle" 
+                            target="_blank" rel="noopener" aria-label="Open our facebook page in a new tab">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" role="button" class="btn social-circle" 
+                            target="_blank" rel="noopener" aria-label="Open our twitter page in a new tab">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" role="button" class="btn social-circle" 
+                            target="_blank" rel="noopener" aria-label="Open our instagram page in a new tab">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com" role="button" class="btn social-circle" 
+                            target="_blank" rel="noopener" aria-label="Open our youtube page in a new tab">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a class="d-flex justify-content-center" href="{% url 'home' %}">
+
+    
+          
+            
+    
+
+          
+    
+    
+  
+                            <!-- <div class="logo"></div> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center" >
+                <p>For Educational Purposes</p>
+            </div>
+        </div>
+    </div>
+</footer>

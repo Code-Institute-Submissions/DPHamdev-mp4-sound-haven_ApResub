@@ -89,22 +89,22 @@
             </div>
             <div class="row">
                 <div class="text-center col mx-1 card bg-white">
-                    <a class="m-auto" class="w-100" href="{% url 'products' %}?brand_title=STAGG">
+                    <a class="m-auto  w-100" href="{% url 'products' %}?brand_title=STAGG">
                         <img id="brand-logo" class="img-fluid" src="/media/STAGG.png" alt="">
                     </a>
                 </div>
                 <div class="text-center col mx-1 card bg-white">
-                    <a class="m-auto" href="{% url 'products' %}?brand_title=REMO">
+                    <a class="m-auto w-100" href="{% url 'products' %}?brand_title=REMO">
                         <img id="brand-logo" class="img-fluid" src="/media/REMO.png" alt="">
                     </a>
                 </div>
                 <div class="text-center col mx-1 card bg-white">
-                    <a class="mt-5" href="{% url 'products' %}?brand_title=BRITISH_DRUM_CO">
+                    <a class="mt-md-4 mt-3 w-100" id="bdcImage" href="{% url 'products' %}?brand_title=BRITISH_DRUM_CO">
                         <img id="brand-logo" class="img-fluid" src="/media/BDC.png" alt="">
                     </a>
                 </div>
                 <div class="text-center col mx-1 card bg-white">
-                    <a class="m-auto" href="{% url 'products' %}?brand_title=GIBSON">
+                    <a class="m-auto w-100" href="{% url 'products' %}?brand_title=GIBSON">
                         <img id="brand-logo" class="img-fluid" src="/media/gibson-logo.png" alt="">
                     </a>
                 </div>
@@ -112,6 +112,8 @@
             </div>
         </div>
     </section>
+    {% include 'includes/footer.html' %}
+
     {% endblock %}
     {% block postloadjs %}
     {{ block.super }}
