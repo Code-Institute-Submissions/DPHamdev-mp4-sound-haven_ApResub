@@ -12,6 +12,13 @@ body {
     font-family: 'Rajdhani', 'Courier New', Courier, monospace;
 }
 
+.logo {
+    background: url('/media/SHSLOGOSmall.png') no-repeat center center;
+    background-size: contain;
+    height: 80px;
+    width: 400px;
+}
+
 .social-circle {
     width: 40px;
     height: 40px;
@@ -29,6 +36,7 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+    color: #000;
 }
 
 .logo-font {
