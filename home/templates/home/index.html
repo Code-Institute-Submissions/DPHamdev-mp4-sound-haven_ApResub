@@ -14,7 +14,15 @@
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <div class="col"></div>
+            <div class="col">
+                <div id="greeting-banner" class="row mt-3 text-center">
+                    {% if request.user.is_authenticated %}
+                        <div class="mt-0 col bg-white text-black">
+                            <h4 class="logo-font my-1">Hello {{ user }}!</h4>                
+                        </div> 
+                    {% endif %}                             
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}
@@ -112,7 +120,6 @@
             </div>
         </div>
     </section>
-    {% include 'includes/footer.html' %}
 
     {% endblock %}
     {% block postloadjs %}

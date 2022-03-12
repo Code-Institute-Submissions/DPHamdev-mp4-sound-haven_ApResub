@@ -1,5 +1,5 @@
-<footer class="mt-auto">
-    <div class="bg-beige">
+<footer class="mt-2 w-100 container-fluid">
+    <div class="bg-white">
         <div class="container">
             <div class="row py-5">
                 <div class="col-4 col-md-3">
@@ -14,16 +14,14 @@
                     </ul>
                 </div>
                 <div class="col-5 col-md-3">
-                    <p class="text-uppercase m-0"><strong>Customer Service</strong></p>
+                    <p class="text-uppercase m-0"><strong>Customer Portal</strong></p>
                     <ul class="list-unstyled">
-                        <li class="mt-2"><a href="#">FAQ</a></li>
-                        <li class="mt-2"><a href="#">Contact Us</a></li>
-                        {% if request.user.is_authenticated %}
+                    {% if request.user.is_authenticated %}
                             <li class="mt-2"><a href="{% url 'profile' %}">My Account</a></li>
-                        {% else %}
+                    {% else %}
                             <li class="mt-2"><a href="{% url 'account_signup' %}">Sign Up</a></li>
                             <li class="mt-2"><a href="{% url 'account_login' %}">Log In</a></li>
-                        {% endif %}
+                    {% endif %}
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 d-flex flex-column justify-content-center mt-3 mt-md-0">
@@ -65,7 +63,7 @@
     
     
   
-                            <!-- <div class="logo"></div> -->
+                            <div class="logo"></div>
                         </a>
                     </div>
                 </div>

@@ -30,6 +30,16 @@ body {
     align-items: center;
 }
 
+.overlay {
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgb(244, 240, 240);
+	z-index: -1;
+}
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -63,19 +73,25 @@ body {
     color: black;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
+.shop-now-button {
+    background: white;
+    color: black;
 }
 
 .shop-now-button:hover,
 .shop-now-button:active,
-.shop-now-button:focus,
+.shop-now-button:focus {
+    background: black;
+    color: white;
+}
+
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: black;
+    color: white;
+}
+
 .btn-white:hover,
 .btn-white:active,
 .btn-white:focus {

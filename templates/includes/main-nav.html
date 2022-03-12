@@ -29,7 +29,7 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="bass-guitar-link">
                 <a href="{% url 'products' %}?category=bass_guitar" class="dropdown-item">Bass Guitars</a>
-                <a href="{% url 'products' %}?category=bass_guitar,acoustic_bass" class="dropdown-item">All Bass Guitars</a>
+                <a href="{% url 'products' %}?category=bass_guitar" class="dropdown-item">All Bass Guitars</a>
             </div>
         </li>
 
@@ -52,7 +52,9 @@
             <div class="dropdown-menu border-0" aria-labelledby="drums-link">
                 <a href="{% url 'products' %}?category=acoustic_drums" class="dropdown-item">Acoustic Drums</a>
                 <a href="{% url 'products' %}?category=cymbals" class="dropdown-item">Cymbals</a>
-                <a href="{% url 'products' %}?category=acoustic_drums,cymbals" class="dropdown-item">All Drums</a>
+                <a href="{% url 'products' %}?category=heads" class="dropdown-item">Drum Heads</a>
+                <a href="{% url 'products' %}?category=sticks" class="dropdown-item">Drum Sticks</a>
+                <a href="{% url 'products' %}?category=acoustic_drums,cymbals,heads,sticks" class="dropdown-item">All Drums</a>
             </div>
         </li>
 
@@ -61,24 +63,10 @@
                 Essentials
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="essentials-link">
-                <a href="{% url 'products' %}?category=acoustic_strings" class="dropdown-item">Acoustic Guitar/Bass Strings</a>
-                <a href="{% url 'products' %}?category=electric_strings" class="dropdown-item">Electric Guitar/Bass Strings</a>
-                <a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
-                <a href="{% url 'products' %}?category=drum_sticks" class="dropdown-item">Drum Sticks</a>
-                <a href="{% url 'products' %}?category=drum_heads" class="dropdown-item">Drum Heads</a>
-                <a href="{% url 'products' %}?category=drum_heads,drum_sticks,plectrums,cables,electric_strings,acoustic_strings" class="dropdown-item">All Essentials</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=acoustic_strings" class="dropdown-item">Acoustic Strings</a>
+                <a href="{% url 'products' %}?category=estrings" class="dropdown-item">Electric Strings</a>
+                <a href="{% url 'products' %}?category=bass_strings" class="dropdown-item">Bass Strings</a>
+                <a href="{% url 'products' %}?category=acoustic_strings,estrings,bass_strings" class="dropdown-item">All Essentials</a>
             </div>
         </li>
     </ul>
