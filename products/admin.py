@@ -16,7 +16,6 @@ class ProductAdmin(admin.ModelAdmin):
         'units_sold',
         'title',
         'description',
-        'description_header',
     )
 
     ordering = ('product_id',)

@@ -9,9 +9,7 @@
     "brand_title": "STAGG",
     "title": "Vintage \"T\" Plus Series electric guitar", 
     "description": "- Body: Solid paulownia \n- Neck: Maple, satin finish, bolt-on with easy access to the last frets\n- Scale: 648mm, (25.5\")\n- Fingerboard: Maple, 22 frets \n- Pickups: 1 x single coil + 1 x humbucker \n- Controls: 1 x volume with push-pull to split humbucker + 1 x tone \n- Pickup selector switch: 3-way \n- Bridge: \"T\" style, strings through body \n- Machine heads: Diecast, nickel \n- Nut: Bone \n- Strings: made in Korea\n- Finish: Highgloss", 
-    "description_header": "- Body: Solid paulownia \n- Neck: Maple, satin finish, bolt-on with easy access to the last frets\n- Scale: 648mm, (25.5\")\n- Fingerboard: Maple, 22 frets \n- Pickups: 1 x single coil + 1 x humbucker \n- Controls: 1 x volume with push-pull to split humbucker + 1 x tone \n- Pickup selector switch: 3-way \n- Bridge: \"T\" style, strings through body \n- Machine heads: Diecast, nickel \n- Nut: Bone \n- Strings: made in Korea\n- Finish: Highgloss",
-    "units_sold": 0    
-    }},
+    "units_sold": 0}},
     {"pk": 2, "model": "products.product", "fields": {
         "product_id": "26084",
         "name": "Standard S electric guitar",
@@ -23,8 +21,7 @@
         "brand_title": "GIBSON",
         "units_sold": 0, 
         "title": "Standard \"S\" electric guitar", 
-        "description": "- Body: Massive Paulownia\n- Neck: maple, bolt-on with easy access to the last frets, 648 mm (24,7\"), satin finish\n- Fingerboard: Rosewood, 22 frets\n- Pickguard: Aged white, 3 folds\n- Pickups: 3 x single coil\n- Controls: 1 x volume - 2 x tone\n- Pickup selector switch: 5-way\n- Bridge: Vibrato type S\n- Machine heads: Die-cast, nickel\n- Nut: Bone\n- Strings: made in Korea", 
-        "description_header": "- Body: Massive Paulownia\n- Neck: maple, bolt-on with easy access to the last frets, 648 mm (24,7\"), satin finish\n- Fingerboard: Rosewood, 22 frets\n- Pickguard: Aged white, 3 folds\n- Pickups: 3 x single coil\n- Controls: 1 x volume - 2 x tone\n- Pickup selector switch: 5-way\n- Bridge: Vibrato type S\n- Machine heads: Die-cast, nickel\n- Nut: Bone\n- Strings: made in Korea"}},
+        "description": "- Body: Massive Paulownia\n- Neck: maple, bolt-on with easy access to the last frets, 648 mm (24,7\"), satin finish\n- Fingerboard: Rosewood, 22 frets\n- Pickguard: Aged white, 3 folds\n- Pickups: 3 x single coil\n- Controls: 1 x volume - 2 x tone\n- Pickup selector switch: 5-way\n- Bridge: Vibrato type S\n- Machine heads: Die-cast, nickel\n- Nut: Bone\n- Strings: made in Korea"}},
     {"pk": 3, "model": "products.product", "fields": {
         "product_id": "25406",
         "name": "Electric guitar, Silveray series, 533 model, with chambered maple body",
@@ -36,8 +33,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Electric guitar, Silveray series, 533 model, with chambered maple body",
-        "description": "- Neck: Maple, set neck, high gloss finish\n- Fingerboard: Blackwood, 22 frets\n- Pickups: 2 x humbuckers\n- Controls: 2 x volume + 2 x tone\n- Pickup selector switch: 3 positions, toggle switch\n- Pickguard: ABS, black, 3 plies\n- Bridge: Tune-o-matic with tailpiece\n- Machine heads: Diecast\n- Nut: NuBone (black)\n- Strings: D'Addario\n- Colour: Black",
-        "description_header": "- Neck: Maple, set neck, high gloss finish\n- Fingerboard: Blackwood, 22 frets\n- Pickups: 2 x humbuckers\n- Controls: 2 x volume + 2 x tone\n- Pickup selector switch: 3 positions, toggle switch\n- Pickguard: ABS, black, 3 plies\n- Bridge: Tune-o-matic with tailpiece\n- Machine heads: Diecast\n- Nut: NuBone (black)\n- Strings: D'Addario\n- Colour: Black"}},
+        "description": "- Neck: Maple, set neck, high gloss finish\n- Fingerboard: Blackwood, 22 frets\n- Pickups: 2 x humbuckers\n- Controls: 2 x volume + 2 x tone\n- Pickup selector switch: 3 positions, toggle switch\n- Pickguard: ABS, black, 3 plies\n- Bridge: Tune-o-matic with tailpiece\n- Machine heads: Diecast\n- Nut: NuBone (black)\n- Strings: D'Addario\n- Colour: Black"}},
     {"pk": 4, "model": "products.product", "fields": {
         "product_id": "22725",
         "name": "Red dreadnought acoustic guitar with basswood top",
@@ -49,8 +45,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Red dreadnought acoustic guitar with basswood top",
-        "description": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss",
-        "description_header": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss"}},
+        "description": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss"}},
     {"pk": 5, "model": "products.product", "fields": {
         "product_id": "22652",
         "name": "Sunburst dreadnought acoustic guitar with basswood top",
@@ -62,8 +57,7 @@
         "brand_title": "GIBSON",
         "units_sold": 0,
         "title": "Sunburst dreadnought acoustic guitar with basswood top",
-        "description": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss",
-        "description_header": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss"}}, 
+        "description": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss"}}, 
     {"pk": 6, "model": "products.product", "fields": {
         "product_id": "22650",
         "name": "Natural dreadnought acoustic guitar with basswood top",
@@ -75,8 +69,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Natural dreadnought acoustic guitar with basswood top",
-        "description": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss",
-        "description_header": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss"}},
+        "description": "- Back and sides: Basswood\n- Neck: Nato\n- Fingerboard: Black stained maple\n- Bridge: Black stained maple\n- Machine heads: Open gear, nickel\n- Finish: Highgloss"}},
     {"pk": 7, "model": "products.product", "fields": {
         "product_id": "26141",
         "name": "Fusion electric bass guitar",
@@ -88,8 +81,7 @@
         "brand_title": "GIBSON",
         "units_sold": 0,
         "title": "\"Fusion\" electric bass guitar",
-        "description": "- Body: Solid Ash\n- Neck: Hard Maple, bolt-on, 867 mm (34.2\")\n- Fingerboard: Rosewood, 24 frets\n- Bridge: Individual saddle bridge\n- Pickups: 1 x JB + 1 x MM\n- Controls: 2 x Volume + 1 x Tone\n- Machine heads: Diecast, chrome",
-        "description_header": "- Body: Solid Ash\n- Neck: Hard Maple, bolt-on, 867 mm (34.2\")\n- Fingerboard: Rosewood, 24 frets\n- Bridge: Individual saddle bridge\n- Pickups: 1 x JB + 1 x MM\n- Controls: 2 x Volume + 1 x Tone\n- Machine heads: Diecast, chrome"}},
+        "description": "- Body: Solid Ash\n- Neck: Hard Maple, bolt-on, 867 mm (34.2\")\n- Fingerboard: Rosewood, 24 frets\n- Bridge: Individual saddle bridge\n- Pickups: 1 x JB + 1 x MM\n- Controls: 2 x Volume + 1 x Tone\n- Machine heads: Diecast, chrome"}},
     {"pk": 8, "model": "products.product", "fields": {
         "product_id": "26139",
         "name": "Standard P electric bass guitar",
@@ -101,8 +93,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Standard \"P\" electric bass guitar",
-        "description": "- Body: Paulownia, Highgloss\n- Neck: Hard Maple, bolt-on, 867 mm, (34.2 in.) Satin finish\n- Fingerboard: Rosewood, 20 frets\n- Bridge: \"PB\" Classic\n- Pickups: 1 x PB\n- Controls: 1 x Volume + 1 x Tone\n- Pickguard: Black, 3 plys\n- Machine Heads: Standard \"P\", nickel",
-        "description_header": "- Body: Paulownia, Highgloss\n- Neck: Hard Maple, bolt-on, 867 mm, (34.2 in.) Satin finish\n- Fingerboard: Rosewood, 20 frets\n- Bridge: \"PB\" Classic\n- Pickups: 1 x PB\n- Controls: 1 x Volume + 1 x Tone\n- Pickguard: Black, 3 plys\n- Machine Heads: Standard \"P\", nickel"}},
+        "description": "- Body: Paulownia, Highgloss\n- Neck: Hard Maple, bolt-on, 867 mm, (34.2 in.) Satin finish\n- Fingerboard: Rosewood, 20 frets\n- Bridge: \"PB\" Classic\n- Pickups: 1 x PB\n- Controls: 1 x Volume + 1 x Tone\n- Pickguard: Black, 3 plys\n- Machine Heads: Standard \"P\", nickel"}},
     {"pk": 9, "model": "products.product", "fields": {
         "product_id": "15616",
         "name": "20 W RMS Bass Amplifier",
@@ -114,8 +105,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "20 W RMS Bass Amplifier",
-        "description": "- 1 x 8\" speaker\n- Metal front grille\n- High impedance instrument input\n- 3-band EQ (Bass\/Middle\/Treble)\n- Volume control\n- Compression control\n- Headphone output\n- Stereo jack input for CD\/MP3 player\n- Weight: 9.9 kg \/ 21.8 lbs",
-        "description_header": null}},
+        "description": "- 1 x 8\" speaker\n- Metal front grille\n- High impedance instrument input\n- 3-band EQ (Bass\/Middle\/Treble)\n- Volume control\n- Compression control\n- Headphone output\n- Stereo jack input for CD\/MP3 player\n- Weight: 9.9 kg \/ 21.8 lbs"}},
     {"pk": 10, "model": "products.product", "fields": {
         "product_id": "15612",
         "name": "20-watt spring reverb acoustic amplifier",
@@ -127,8 +117,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "20-watt spring reverb acoustic amplifier",
-        "description": "- Power: 20 watts (RMS)\n- Speaker: 8\", 4 ohms, with coaxial tweeter\n- Frequency response: 70 Hz - 12 kHz\n- Total harmonic distortion: 0.2 %\n- Signal to noise ratio: -64 dB at maximum rated power\n- Input impedance: 200k ohms (instrument)\n- Controls: 3-band equaliser (bass, middle, treble) with parametric mid, active or passive instrument mode\n- Inputs: Instrument, microphone, auxiliary device (stereo jack)\n- Output: Headphones (6.35 mm (1\/4\") standard jack)\n- Feature: Versatile spring reverb\n- Power consumption: 56 watts maximum \n- Dimensions: 40.3 x 34.7 x 19.4 cm (15.9 x 13.7 x 7.6\")\n- Weight: 8.5 kg (18.7 lb)",
-        "description_header": null}}, 
+        "description": "- Power: 20 watts (RMS)\n- Speaker: 8\", 4 ohms, with coaxial tweeter\n- Frequency response: 70 Hz - 12 kHz\n- Total harmonic distortion: 0.2 %\n- Signal to noise ratio: -64 dB at maximum rated power\n- Input impedance: 200k ohms (instrument)\n- Controls: 3-band equaliser (bass, middle, treble) with parametric mid, active or passive instrument mode\n- Inputs: Instrument, microphone, auxiliary device (stereo jack)\n- Output: Headphones (6.35 mm (1\/4\") standard jack)\n- Feature: Versatile spring reverb\n- Power consumption: 56 watts maximum \n- Dimensions: 40.3 x 34.7 x 19.4 cm (15.9 x 13.7 x 7.6\")\n- Weight: 8.5 kg (18.7 lb)"}}, 
     {"pk": 11, "model": "products.product", "fields": {
         "product_id": "15606",
         "name": "40 W RMS 2-channel Guitar Amplifier with spring reverb",
@@ -140,8 +129,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "40 W RMS 2-channel Guitar Amplifier with spring reverb",
-        "description": "- 1 x 10\" speaker\n- Metal front grille\n- High impedance instrument input\n- 2 channels (clean\/overdrive) with independent volume controls, selectable via panel\n- 3-band EQ (Bass\/Middle\/Treble) + separate parametric mid control\n- Master volume control\n- Gain control (overdrive channel)\n- Headphone output\n- Stereo jack input for CD\/MP3 player\n- Weight: 10.7 kg \/ 23.6 lbs",
-        "description_header": null}},
+        "description": "- 1 x 10\" speaker\n- Metal front grille\n- High impedance instrument input\n- 2 channels (clean\/overdrive) with independent volume controls, selectable via panel\n- 3-band EQ (Bass\/Middle\/Treble) + separate parametric mid control\n- Master volume control\n- Gain control (overdrive channel)\n- Headphone output\n- Stereo jack input for CD\/MP3 player\n- Weight: 10.7 kg \/ 23.6 lbs"}},
     {"pk": 12, "model": "products.product", "fields": {
         "product_id": "20587",
         "name": "5-piece, 6-ply basswood, 22\" standard drum set with hardware & cymbals",
@@ -153,8 +141,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "5-piece, 6-ply basswood, 22\" standard drum set with hardware & cymbals",
-        "description": "- Including: 22\" x 16\" bass drum (12 lugs)\n- 12\" x 9\" tom (10 lugs)\n- 13\" x 10\" tom (10 lugs) + tom holders\n- 16\" x 16\" floor tom (12 lugs)\n- 14\" x 5.5\" wooden snare drum (12 lugs) + snare stand\n- Bass drum pedal\n- 16\" crash cymbal\n- Straight stand\n- 14\" hi hat cymbal pair + hi hat stand\n- Drum throne\n- Pair of sticks",
-        "description_header": "- Including: 22\" x 16\" bass drum (12 lugs)\n- 12\" x 9\" tom (10 lugs)\n- 13\" x 10\" tom (10 lugs) + tom holders\n- 16\" x 16\" floor tom (12 lugs)\n- 14\" x 5.5\" wooden snare drum (12 lugs) + snare stand\n- Bass drum pedal\n- 16\" crash cymbal\n- Straight stand\n- 14\" hi hat cymbal pair + hi hat stand\n- Drum throne\n- Pair of sticks"}},
+        "description": "- Including: 22\" x 16\" bass drum (12 lugs)\n- 12\" x 9\" tom (10 lugs)\n- 13\" x 10\" tom (10 lugs) + tom holders\n- 16\" x 16\" floor tom (12 lugs)\n- 14\" x 5.5\" wooden snare drum (12 lugs) + snare stand\n- Bass drum pedal\n- 16\" crash cymbal\n- Straight stand\n- 14\" hi hat cymbal pair + hi hat stand\n- Drum throne\n- Pair of sticks"}},
     {"pk": 13, "model": "products.product", "fields": {
         "product_id": "24919",
         "name": "Legend Club 24 3-piece drum set, cold-pressed birch 6 mm shells, Night Skye finish",
@@ -166,8 +153,7 @@
         "brand_title": "BRITISH_DRUM_CO",
         "units_sold": 0,
         "title": "Legend Club 24 3-piece drum set, cold-pressed birch 6 mm shells, Night Skye finish",
-        "description": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 24 x 16\" bass drum, 16 x 16\" floor tom and 13 x 9\" rack tom\n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Features: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings",
-        "description_header": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 24 x 16\" bass drum, 16 x 16\" floor tom and 13 x 9\" rack tom\n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Features: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
+        "description": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 24 x 16\" bass drum, 16 x 16\" floor tom and 13 x 9\" rack tom\n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Features: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
     {"pk": 14, "model": "products.product", "fields": {
         "product_id": "24916",
         "name": "Legend Fusion 22 4-piece drum set, cold-pressed birch 6 mm shells, Skye Blue finish",
@@ -179,8 +165,7 @@
         "brand_title": "BRITISH_DRUM_CO",
         "units_sold": 0,
         "title": "Legend Fusion 22 4-piece drum set, cold-pressed birch 6 mm shells, Skye Blue finish",
-        "description": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 22 x 16\" bass drum, 16 x 16\" floor tom, 12 x 8\" rack tom and 10 x 7\" rack tom \n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 6 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Feature: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings",
-        "description_header": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 22 x 16\" bass drum, 16 x 16\" floor tom, 12 x 8\" rack tom and 10 x 7\" rack tom \n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 6 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Feature: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
+        "description": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 22 x 16\" bass drum, 16 x 16\" floor tom, 12 x 8\" rack tom and 10 x 7\" rack tom \n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 6 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Feature: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
     {"pk": 15, "model": "products.product", "fields": {
         "product_id": "18531",
         "name": "20” EX Brilliant Medium Ride",
@@ -192,8 +177,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "20” EX Brilliant Medium Ride",
-        "description": "- Material: B8 bronze ( 92% Copper and 8% tin alloy )",
-        "description_header": null}},
+        "description": "- Material: B8 bronze ( 92% Copper and 8% tin alloy )"}},
     {"pk": 16, "model": "products.product", "fields": {
         "product_id": "18525",
         "name": "14” EX Brilliant Medium Hi-hat",
@@ -205,8 +189,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "14” EX Brilliant Medium Hi-hat",
-        "description": "- Material: B8 bronze ( 92% Copper and 8% tin alloy )",
-        "description_header": null}},
+        "description": "- Material: B8 bronze ( 92% Copper and 8% tin alloy )"}},
     {"pk": 17, "model": "products.product", "fields": {
         "product_id": "15034",
         "name": "17\" SH Regular Thin Crash",
@@ -218,8 +201,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "17\" SH Regular Thin Crash",
-        "description": "- Material: B20 bronze ( 80% Copper and 20% tin alloy )",
-        "description_header": null}},
+        "description": "- Material: B20 bronze ( 80% Copper and 20% tin alloy )"}},
     {"pk": 18, "model": "products.product", "fields": {
         "product_id": "11129",
         "name": "16\" SH Regular Medium Crash",
@@ -231,8 +213,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "16\" SH Regular Medium Crash",
-        "description": "- Material: B20 bronze ( 80% Copper and 20% tin alloy )",
-        "description_header": null}},
+        "description": "- Material: B20 bronze ( 80% Copper and 20% tin alloy )"}},
     {"pk": 19, "model": "products.product", "fields": {
         "product_id": "17912",
         "name": "ProPack (12\", 13\", 16\" Emperor Clear + FREE 14\" BA-0114-00)",
@@ -244,8 +225,7 @@
         "brand_title": "REMO",
         "units_sold": 0,
         "title": "ProPack (12\", 13\", 16\" Emperor Clear + FREE 14\" BA-0114-00)",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 20, "model": "products.product", "fields": {
         "product_id": "17911",
         "name": "ProPack (10\", 12\", 14\" Emperor Clear + FREE 14\" BA-0114-00)",
@@ -257,8 +237,7 @@
         "brand_title": "REMO",
         "units_sold": 0,
         "title": "ProPack (10\", 12\", 14\" Emperor Clear + FREE 14\" BA-0114-00)",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 21, "model": "products.product", "fields": {
         "product_id": "581",
         "name": "REMO Ambassador Coated 14\" Snare Head",
@@ -270,8 +249,7 @@
         "brand_title": "REMO",
         "units_sold": 0,
         "title": "REMO Ambassador Coated 14\" Snare Head",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 22, "model": "products.product", "fields": {
         "product_id": "1628",
         "name": "REMO Ambassador Clear 14\" Snare Head",
@@ -283,8 +261,7 @@
         "brand_title": "REMO",
         "units_sold": 0,
         "title": "REMO Ambassador Clear 14\" Snare Head",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 23, "model": "products.product", "fields": {
         "product_id": "3519",
         "name": "REMO Emperor Coated 14\" Snare Head",
@@ -296,8 +273,7 @@
         "brand_title": "REMO",
         "units_sold": 0,
         "title": "REMO Emperor Coated 14\" Snare Head",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 24, "model": "products.product", "fields": {
         "product_id": "1634",
         "name": "REMO Emperor Clear 14\" Snare Head",
@@ -309,8 +285,7 @@
         "brand_title": "REMO",
         "units_sold": 0,
         "title": "REMO Emperor Clear 14\" Snare Head",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 25, "model": "products.product", "fields": {
         "product_id": "17092",
         "name": "Pair of Hickory Sticks, V series \/7A - Wooden Tip",
@@ -322,8 +297,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Pair of Hickory Sticks, V series \/7A - Wooden Tip",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 26, "model": "products.product", "fields": {
         "product_id": "17091",
         "name": "Pair of Hickory Sticks, V series\/5B - Wooden Tip",
@@ -335,8 +309,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Pair of Hickory Sticks, V series\/5B - Wooden Tip",
-        "description": "",
-        "description_header": null}},        
+        "description": ""}},        
     {"pk": 27, "model": "products.product", "fields": {
         "product_id": "18106",
         "name": "Instrument cable, jack/jack (m/m), 3 m (10\"), coiled, S-series",
@@ -348,8 +321,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Instrument cable, jack\/jack (m\/m), 3 m (10\"), coiled, S-series",
-        "description": "- Type: Instrument cable\n- Coiled cable: Yes \n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive\n- Colour: Black",
-        "description_header": "- Type: Instrument cable\n- Coiled cable: Yes \n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive\n- Colour: Black"}},
+        "description": "- Type: Instrument cable\n- Coiled cable: Yes \n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive\n- Colour: Black"}},
     {"pk": 28, "model": "products.product", "fields": {
         "product_id": "23644",
         "name": "Instrument cable, jack/jack (m/m), 3 m (10\"), heavy-duty connectors, red, S-series",
@@ -361,8 +333,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Instrument cable, jack\/jack (m\/m), 3 m (10\"), heavy-duty connectors, red, S-series",
-        "description": "- Type: Instrument cable\n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive",
-        "description_header": "- Type: Instrument cable\n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive"}},
+        "description": "- Type: Instrument cable\n- Connectors: Jack male \/ jack male\n- Diameter: 6 mm (0.24\")\n- Legal aspect: Compliant with the RoHS directive"}},
     {"pk": 29, "model": "products.product", "fields": {
         "product_id": "13492",
         "name": "Bronze set of strings for acoustic guitar",
@@ -374,8 +345,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Bronze set of strings for acoustic guitar",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 30, "model": "products.product", "fields": {
         "product_id": "13480",
         "name": "Bronze set of strings for acoustic guitar",
@@ -387,8 +357,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Bronze set of strings for acoustic guitar",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 31, "model": "products.product", "fields": {
         "product_id": "13486",
         "name": "Nickel plated steel set of strings for Electric guitar",
@@ -400,8 +369,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Nickel plated steel set of strings for Electric guitar",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 32, "model": "products.product", "fields": {
         "product_id": "9952",
         "name": "Nickel plated steel set of strings for electric guitar",
@@ -413,8 +381,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Nickel plated steel set of strings for electric guitar",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 33, "model": "products.product", "fields": {
         "product_id": "13490",
         "name": "Nickel round wound set of strings for electric Bass guitar",
@@ -426,8 +393,7 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Nickel round wound set of strings for electric Bass guitar",
-        "description": "",
-        "description_header": null}},
+        "description": ""}},
     {"pk": 34, "model": "products.product", "fields": {
         "product_id": "9954",
         "name": "Nickel round wound set of strings for electric bass guitar",
@@ -439,7 +405,6 @@
         "brand_title": "STAGG",
         "units_sold": 0,
         "title": "Nickel round wound set of strings for electric bass guitar",
-        "description": "",
-        "description_header": null}}]
+        "description": ""}}]
 
 

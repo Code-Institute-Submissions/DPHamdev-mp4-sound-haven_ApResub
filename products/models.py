@@ -31,7 +31,6 @@ class Product(models.Model):
     brand_title = models.CharField(max_length=254, null=True, blank=True)
     units_sold = models.IntegerField(default=0, null=False, blank=False)
     title = models.CharField(max_length=254)
-    description_header = models.TextField(null=True, blank=True)
 
     def __str__(self):
         return self.name
