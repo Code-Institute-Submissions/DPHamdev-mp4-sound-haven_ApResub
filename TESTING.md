@@ -69,15 +69,15 @@ All links work correctly, navigating the user to the appropriate direction, with
 
 ## Lighthouse
 
-[Lighthouse for Home page](mp4/images/lighthouse/indexlighthouse.png) 
-[Lighthouse for Product page](mp4/images/lighthouse/allproductslighthouse.png) 
-[Lighthouse for Individual Product page](mp4/images/lighthouse/productdetaillighthouse.png) 
-[Lighthouse for Cart page](mp4/images/lighthouse/cartlighthouse.png) 
-[Lighthouse for Checkout page](mp4/images/lighthouse/checkoutlighthouse.png) 
-[Lighthouse for Checkout Success page](mp4/images/lighthouse/checkoutsuccesslighthouse.png) 
-[Lighthouse for Profile page](mp4/images/lighthouse/profilelighthouse.png) 
-[Lighthouse for Add Product page](mp4/images/lighthouse/addproductlighthouse.png) 
-[Lighthouse for Edit Product page](mp4/images/lighthouse/editproductlighthouse.png) 
+- [Lighthouse for Home page](mp4/images/lighthouse/indexlighthouse.png) 
+- [Lighthouse for Product page](mp4/images/lighthouse/allproductslighthouse.png) 
+- [Lighthouse for Individual Product page](mp4/images/lighthouse/productdetaillighthouse.png) 
+- [Lighthouse for Cart page](mp4/images/lighthouse/cartlighthouse.png) 
+- [Lighthouse for Checkout page](mp4/images/lighthouse/checkoutlighthouse.png) 
+- [Lighthouse for Checkout Success page](mp4/images/lighthouse/checkoutsuccesslighthouse.png) 
+- [Lighthouse for Profile page](mp4/images/lighthouse/profilelighthouse.png) 
+- [Lighthouse for Add Product page](mp4/images/lighthouse/addproductlighthouse.png) 
+- [Lighthouse for Edit Product page](mp4/images/lighthouse/editproductlighthouse.png) 
 
 
 # User Stories
