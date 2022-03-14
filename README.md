@@ -147,21 +147,12 @@ The website is using a Hierarchial Structrue to allow the user to view the site 
 ### **D. Skeleton Plane**  
 Wireframes were created using Balsamiq Wire Frames.  
 
-- [Wireframe for Home page](readme-testing-files/readme/wireframes/wireframe-home.png) 
-- [Wireframe for Products page](readme-testing-files/readme/wireframes/wireframe-products.png)  
-- [Wireframe for Individual Product page](readme-testing-files/readme/wireframes/wireframe-individual-product.png)  
-- [Wireframe for Favorites page](readme-testing-files/readme/wireframes/wireframe-favorites.png)  
-- [Wireframe for Shopping Bag page](readme-testing-files/readme/wireframes/wireframe-shoppingbag.png)  
-- [Wireframe for Checkout page](readme-testing-files/readme/wireframes/wireframe-checkout.png)  
-- [Wireframe for Profile page (Update user's information)](readme-testing-files/readme/wireframes/wireframe-profile-updateinfo.png)  
-- [Wireframe for Profile page (View order history)](readme-testing-files/readme/wireframes/wireframe-profile-orderhistory.png)  
-- [Wireframe for Profile page (Reviews)](readme-testing-files/readme/wireframes/wireframe-profile-reviews.png)  
-- [Wireframe for Articles page](readme-testing-files/readme/wireframes/wireframe-articles.png)  
-- [Wireframe for Individual Article page](readme-testing-files/readme/wireframes/wireframe-individual-article.png)  
-- [Wireframe for Contact page](readme-testing-files/readme/wireframes/wireframe-contact.png)  
-- [Wireframe for Add / Edit Review page](readme-testing-files/readme/wireframes/wireframe-add-edit-review.png)  
-- [Wireframe for Sign Up page](readme-testing-files/readme/wireframes/wireframe-signup.png)  
-- [Wireframe for Log In page](readme-testing-files/readme/wireframes/wireframe-login.png)  
+- [Wireframe for Home page](wireframe/indexwireframe.png) 
+- [Wireframe for Products page](wireframe/productwireframe.png)  
+- [Wireframe for Individual Product page](wireframe/productdetailwireframe.png)  
+- [Wireframe for Shopping Bag page](wireframe/cartwireframe.png)  
+- [Wireframe for Checkout page](wireframe/checkoutwireframe.png)  
+- [Wireframe for Profile page](wireframe/profilewireframe.png)    
 
 <br/>  
 
