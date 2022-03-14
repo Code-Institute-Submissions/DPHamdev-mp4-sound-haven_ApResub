@@ -285,8 +285,8 @@ If a superuser is logged in, they'll have the option to edit or delete the produ
 
 
 
-#### **4. Bag Page**  
-[See the image of Bag page here](mp4testing/images/cartoverview.png)  
+#### **4. Cart Page**  
+[See the image of Cart page here](mp4testing/images/cartoverview.png)  
 The cart page includes a nested box which allows the user to update/remove the products they have currently in their cart. 
 
 It allows them to navigate through to their checkout page.
