@@ -153,7 +153,7 @@
         "brand_title": "BRITISH_DRUM_CO",
         "units_sold": 0,
         "title": "Legend Club 24 3-piece drum set, cold-pressed birch 6 mm shells, Night Skye finish",
-        "description": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 24 x 16\" bass drum, 16 x 16\" floor tom and 13 x 9\" rack tom\n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Features: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
+        "description": "Modern, sophisticated and reliable drums. \nHandmade in Great Britain.\n\n- Included: 24 x 16\" bass drum, 16 x 16\" floor tom and 13 x 9\" rack tom\n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Features: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
     {"pk": 14, "model": "products.product", "fields": {
         "product_id": "24916",
         "name": "Legend Fusion 22 4-piece drum set, cold-pressed birch 6 mm shells, Skye Blue finish",
@@ -165,10 +165,10 @@
         "brand_title": "BRITISH_DRUM_CO",
         "units_sold": 0,
         "title": "Legend Fusion 22 4-piece drum set, cold-pressed birch 6 mm shells, Skye Blue finish",
-        "description": "Modern, sophisticated and reliable. \nHandmade in Great Britain.\n\n- Included: 22 x 16\" bass drum, 16 x 16\" floor tom, 12 x 8\" rack tom and 10 x 7\" rack tom \n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 6 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Feature: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
+        "description": "Modern, sophisticated and reliable drums. \nHandmade in Great Britain.\n\n- Included: 22 x 16\" bass drum, 16 x 16\" floor tom, 12 x 8\" rack tom and 10 x 7\" rack tom \n- Shells: Cold-pressed birch\n- Bearing edges: Hand cut, 45-degree\n- Hoops: Triple flange, 2.3 mm, 6 mm, 10 ply\n- Lugs: Diamond chrome-plated full length Palladium lugs and claws \n- Heads: Remo \n- Feature: Nyloc lug inserts to prevent de-tuning and Finish-Matching reinforcement rings"}},
     {"pk": 15, "model": "products.product", "fields": {
         "product_id": "18531",
-        "name": "20” EX Brilliant Medium Ride",
+        "name": "20” EX Brilliant Medium Ride cymbal",
         "price": 153.99, 
         "category": 7,
         "rating": 4.6, 
@@ -180,7 +180,7 @@
         "description": "- Material: B8 bronze ( 92% Copper and 8% tin alloy )"}},
     {"pk": 16, "model": "products.product", "fields": {
         "product_id": "18525",
-        "name": "14” EX Brilliant Medium Hi-hat",
+        "name": "14” EX Brilliant Medium Hi-hat cymbals",
         "price": 253.99, 
         "category": 7,
         "rating": 4.1, 
@@ -192,7 +192,7 @@
         "description": "- Material: B8 bronze ( 92% Copper and 8% tin alloy )"}},
     {"pk": 17, "model": "products.product", "fields": {
         "product_id": "15034",
-        "name": "17\" SH Regular Thin Crash",
+        "name": "17\" SH Regular Thin Crash cymbal",
         "price": 189.99, 
         "category": 7,
         "rating": 4.3, 
@@ -204,7 +204,7 @@
         "description": "- Material: B20 bronze ( 80% Copper and 20% tin alloy )"}},
     {"pk": 18, "model": "products.product", "fields": {
         "product_id": "11129",
-        "name": "16\" SH Regular Medium Crash",
+        "name": "16\" SH Regular Medium Crash cymbal",
         "price": 173.99, 
         "category": 7,
         "rating": 4.3, 
@@ -216,7 +216,7 @@
         "description": "- Material: B20 bronze ( 80% Copper and 20% tin alloy )"}},
     {"pk": 19, "model": "products.product", "fields": {
         "product_id": "17912",
-        "name": "ProPack (12\", 13\", 16\" Emperor Clear + FREE 14\" BA-0114-00)",
+        "name": "Remo Drum Heads ProPack (12\", 13\", 16\" Emperor Clear + FREE 14\" BA-0114-00)",
         "price": 63.99, 
         "category": 1,
         "rating": 4.8, 
@@ -224,11 +224,11 @@
         "image": "19.jpg",
         "brand_title": "REMO",
         "units_sold": 0,
-        "title": "ProPack (12\", 13\", 16\" Emperor Clear + FREE 14\" BA-0114-00)",
+        "title": "Remo Drum Heads ProPack (12\", 13\", 16\" Emperor Clear + FREE 14\" BA-0114-00)",
         "description": ""}},
     {"pk": 20, "model": "products.product", "fields": {
         "product_id": "17911",
-        "name": "ProPack (10\", 12\", 14\" Emperor Clear + FREE 14\" BA-0114-00)",
+        "name": "Remo Drum Heads ProPack (10\", 12\", 14\" Emperor Clear + FREE 14\" BA-0114-00)",
         "price": 63.99, 
         "category": 1,
         "rating": 4.2, 
@@ -236,7 +236,7 @@
         "image": "20.jpg",
         "brand_title": "REMO",
         "units_sold": 0,
-        "title": "ProPack (10\", 12\", 14\" Emperor Clear + FREE 14\" BA-0114-00)",
+        "title": "Remo Drum Heads ProPack (10\", 12\", 14\" Emperor Clear + FREE 14\" BA-0114-00)",
         "description": ""}},
     {"pk": 21, "model": "products.product", "fields": {
         "product_id": "581",
