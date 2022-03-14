@@ -208,6 +208,10 @@ a.category-badge > span.badge:hover {
     border: none;
 }
 
+.dot {
+    background: white !important;
+}
+
 #brand-logo {
     max-height: 75%;
     max-width: 75%;
