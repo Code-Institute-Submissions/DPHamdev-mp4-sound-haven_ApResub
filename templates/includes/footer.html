@@ -19,6 +19,7 @@
                     {% if request.user.is_authenticated %}
                             <li class="mt-2"><a href="{% url 'profile' %}">My Account</a></li>
                     {% else %}
+                            <li class="mt-2"><a href="{% url 'contact' %}">Contact Us</a></li>
                             <li class="mt-2"><a href="{% url 'account_signup' %}">Sign Up</a></li>
                             <li class="mt-2"><a href="{% url 'account_login' %}">Log In</a></li>
                     {% endif %}
