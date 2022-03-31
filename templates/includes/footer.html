@@ -16,7 +16,7 @@
                 <div class="col-5 col-md-3">
                     <p class="text-uppercase m-0"><strong>Customer Portal</strong></p>
                     <ul class="list-unstyled">
-                        <li class="mt-2"><a href="{% url 'contact' %}">Contact Us</a></li>
+                            <li class="mt-2"><a href="{% url 'contact' %}">Contact Us</a></li>
                     {% if request.user.is_authenticated %}
                             <li class="mt-2"><a href="{% url 'profile' %}">My Account</a></li>
                     {% else %}
