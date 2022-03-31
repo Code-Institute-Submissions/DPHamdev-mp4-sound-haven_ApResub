@@ -11,15 +11,16 @@
 {% endblock %}
 
 {% block content %}
-    <section>
+    <div class="mt-5 container header-container">
+        <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col text-center">
-                    <h2 class="my-5 fw-bold text-uppercase">We'd love to hear from you</h2>
+                <div class="col-12">
+                    <h2 class="my-5 fw-bold text-uppercase text-center">We'd love to hear from you</h2>
                 </div>
             </div>
             <div>
-                <p>
+                <p class="text-center">
                     You can call us, send us an email, or fill out this contact form below. 
                     Please note that our customer service teams are very busy just now and we are doing everything we can to get back to you as soon as possible. 
                     Thank you for your patience!
@@ -42,13 +43,13 @@
                             {% csrf_token %}
                             {{ form | crispy }} 
                             <div class="text-end mt-5">
-                                <button class="btn btn-beige" type="submit">Send Message</button>
+                                <button class="btn btn-black rounded-0" type="submit">Send Message</button>
                             </div>               
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 {% endblock %}
