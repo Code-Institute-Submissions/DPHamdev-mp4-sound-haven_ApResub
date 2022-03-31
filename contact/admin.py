@@ -1,14 +1,5 @@
 from django.contrib import admin
-from .models import Topic, Contact
-
-
-class TopicAdmin(admin.ModelAdmin):
-    """ Topic for Contact Form"""
-
-    list_display = (
-        'subject',
-        'text',
-    )
+from .models import Contact
 
 
 class ContactAdmin(admin.ModelAdmin):
@@ -18,12 +9,10 @@ class ContactAdmin(admin.ModelAdmin):
         'name',
         'email',
         'order_number',
-        'topic',
         'message',
         'date'
     )
     search_fields = ('name', 'email',)
     date_hierarchy = 'date'
 
-admin.site.register(Topic, TopicAdmin)
 admin.site.register(Contact, ContactAdmin)
