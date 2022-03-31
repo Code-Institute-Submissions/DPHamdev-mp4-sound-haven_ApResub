@@ -15,8 +15,9 @@ def contact(request):
     else:
         form = ContactForm()
 
+    template = 'contact/contact.html'
     context = {
         'form': form,
     }
 
-    return render(request, 'contact/contact.html', context)
+    return render(request, template, context)
