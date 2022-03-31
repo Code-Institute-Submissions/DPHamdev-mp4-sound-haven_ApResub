@@ -152,7 +152,8 @@ Wireframes were created using Balsamiq Wire Frames.
 - [Wireframe for Individual Product page](wireframe/productdetailwireframe.png)  
 - [Wireframe for Shopping Bag page](wireframe/cartwireframe.png)  
 - [Wireframe for Checkout page](wireframe/checkoutwireframe.png)  
-- [Wireframe for Profile page](wireframe/profilewireframe.png)    
+- [Wireframe for Profile page](wireframe/profilewireframe.png)
+- [Wireframe for Contact page](wireframe/contactwireframe.png)
 
 <br/>  
 
