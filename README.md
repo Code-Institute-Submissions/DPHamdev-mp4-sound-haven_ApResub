@@ -592,15 +592,15 @@ This project is deployed on Heroku for production, with all static and media fil
 ```
 12. Login to Heroku through CLI, using ```heroku login```. Once logged in, disable the collect static temporarily, so that Heroku won't try to collect static files when it deploys.
 ```
-   heroku config:set DISABLE_COLLECTSTATIC=1 --app shoes-and-more
+   heroku config:set DISABLE_COLLECTSTATIC=1 --app mp4-sound-haven
 ```
    And add the hostname of the Heroku app to allowed hosts in the project's settings.py, and also add localhost so that Gitpod will still work as well:  
 ```
-   ALLOWED_HOSTS = ['shoes-and-more.herokuapp.com', 'localhost']
+   ALLOWED_HOSTS = ['sound-haven.herokuapp.com', 'localhost']
 ```
 13. Add, commit, and push to gitpod and then to Heroku. After pushing to gitpod as usual, initialize git remote first:
 ```
-   heroku git:remote -a shoes-and-more
+   heroku git:remote -a mp4-sound-haven
 ```
    Then push to Heroku:
 ```

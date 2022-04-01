@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'contact/css/contact.css' %}">
+{% endblock %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="mt-5 container">
+        <div class="row">
+            <div class="col text-center py-2 py-md-3">
+                <h2 class="my-3 my-md-5">{{ blog.title }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <small class="text-muted">
+                    Created on {{ blog.created_on }} by {{ blog.author }}
+                </small>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 col-lg-6">
+                {% if blog.image %}
+                    <img src="{{ blog.image.url }}" alt="{{ blog.title }}" class="w-100">
+                {% else %}
+                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" 
+                alt="{{ blog.title }}" class="img-fluid w-100">
+                {% endif %}
+            </div>
+            <div class="col-12 col-lg-6 ps-lg-4">
+                <p class="my-4 mt-lg-0">{{ blog.paragraph1 }}</p>
+                {% if blog.paragraph2 %}
+                    <p class="mb-4">{{ blog.paragraph2 }}</p>
+                {% endif %}
+                {% if blog.paragraph2 %}
+                    <p class="mb-4">{{ blog.paragraph3 }}</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5 pb-4">
+            <a href="{% url 'blogs' %}" role="button" class="btn btn-black">Read More Blogs</a>
+        </div>
+    </div>
+
+
+{% endblock %}
