@@ -1,16 +1,13 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import ContactForm
-from .models import Contact
 
 
 def contact(request):
     """ Contact Us Page """
 
-    contact = get_object_or_404(Contact)
-
     if request.method == 'POST':
-        form = ContactForm(request.POST, instance=contact)
+        form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
             messages.success(
