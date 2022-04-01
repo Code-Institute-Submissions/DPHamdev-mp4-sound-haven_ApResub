@@ -29,7 +29,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ blog.title }}</h5>
                         <p class="card-text">{{ blog.paragraph1|truncatechars:40 }}</p>
-                        <a href="{ url 'blog' blog.id }" class="btn btn-black">Read the blog</a>
+                        <a href="{% url 'blog' blog.id %}" class="btn btn-black">Read the blog</a>
                     </div>
                 </div>
             </div>
