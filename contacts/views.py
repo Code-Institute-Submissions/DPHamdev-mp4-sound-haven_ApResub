@@ -14,7 +14,7 @@ def contact(request):
                 request,
                 'Contact Form submitted. Thank you!'
             )
-            return redirect('contact')
+            return redirect('contactpage')
     else:
         form = ContactForm()
 
