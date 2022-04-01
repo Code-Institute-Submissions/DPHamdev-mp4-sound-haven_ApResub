@@ -11,8 +11,5 @@ class Contact(models.Model):
     date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
-
-
-    def email(self):
-        return self.email
+        return self.name + "-" +  self.email
+        
