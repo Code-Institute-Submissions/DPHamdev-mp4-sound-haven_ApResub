@@ -16,5 +16,6 @@ class ContactForm(forms.ModelForm):
             'order_number': _('Order Number'),
         }
 
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
