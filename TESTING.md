@@ -78,6 +78,9 @@ All links work correctly, navigating the user to the appropriate direction, with
 - [Lighthouse for Profile page](mp4/images/lighthouse/profilelighthouse.png) 
 - [Lighthouse for Add Product page](mp4/images/lighthouse/addproductlighthouse.png) 
 - [Lighthouse for Edit Product page](mp4/images/lighthouse/editproductlighthouse.png) 
+- [Lighthouse for Contact page](mp4/images/lighthouse/contactlighthouse.png) 
+- [Lighthouse for Blogs page](mp4/images/lighthouse/blogslighthouse.png) 
+- [Lighthouse for Blog page](mp4/images/lighthouse/bloglighthouse.png) 
 
 
 # User Stories
@@ -121,11 +124,9 @@ All links work correctly, navigating the user to the appropriate direction, with
 
 ![Order Confirmation](mp4testing/images/ordersuccessful.png "Order Confirmation")
 
-
 10. **Receive email confirmation after purchase.**
 
 ![Email Confirmation](mp4testing/images/toastemailconfirmation.png "Email Confirmation")
-
 
 11. **Navigate easily through the site with clear navigational tools, such as navbars and footers.**
 
@@ -136,6 +137,8 @@ All links work correctly, navigating the user to the appropriate direction, with
 
 ![Register](mp4testing/images/signup.png "Register")
 
+13. **Contact the Business**
+![Contact](mp4testing/images/contactform.png "Contact")
 
 ### Registered Users
 
@@ -157,7 +160,6 @@ All links work correctly, navigating the user to the appropriate direction, with
 1. **Add product(s)**
 
 ![Add Product](mp4testing/images/emptyproductmanagement.png "Add Product")
-
 
 2. **Edit and update product(s)**
 

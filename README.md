@@ -93,7 +93,8 @@ As a customer I want to:
    10. Ability to view order confirmations after purchase.  
    11. Receive email confirmation after purchase.  
    12. Navigate easily through the site with clear navigational tools, such as navbars and footers.  
-   13. Register for an account.     
+   13. Register for an account.    
+   14. Contact the business 
 
 As a registered user, I want to:
    1. Have the same access and more than an unregistered user. 
@@ -154,6 +155,8 @@ Wireframes were created using Balsamiq Wire Frames.
 - [Wireframe for Checkout page](wireframe/checkoutwireframe.png)  
 - [Wireframe for Profile page](wireframe/profilewireframe.png)
 - [Wireframe for Contact page](wireframe/contactwireframe.png)
+- [Wireframe for Blogs page](wireframe/blogswireframe.png)
+- [Wireframe for Blog page](wireframe/blogwireframe.png)
 
 <br/>  
 
@@ -226,7 +229,25 @@ The database was used via SQLite during development on GitHub, but using deploym
    - Default_town_or_city field: the town or city name of the user.  
    - Default_postcode field: the postcode of the user.  
    - Default_country field: the country of the user.    
+
+- **ContactForm model**  
+  - Stores the contact form filled by the user.  
+  - Name field: the name of the user.  
+  - Email field: the email of the user.   
+  - Order_number: the order number if the user has it. Filled manually by the user.  
+  - Message: the message in the form.  
+  - Date: the date it was sent.  
  
+- **Blog model**   
+   - Stores articles/ blogs for the website.  
+   - Image field: the image for the article.   
+   - Author field: the author of the article, a foreign key from the User model.  
+   - Title field: the title for the article.  
+   - Paragraph1: the first paragraph of the article.  
+   - Paragraph2: the second paragraph of the article.  
+   - Paragraph3: the third paragraph of the article.  
+   - Created_on: the data it was created.  
+
 
 <br/>  
 
@@ -284,42 +305,55 @@ The page also includes navigation buttons, leading the user to adding the items 
 
 If a superuser is logged in, they'll have the option to edit or delete the product. 
 
-
-
 #### **4. Cart Page**  
 [See the image of Cart page here](mp4testing/images/cartoverview.png)  
 The cart page includes a nested box which allows the user to update/remove the products they have currently in their cart. 
 
 It allows them to navigate through to their checkout page.
 
-#### **6. Checkout Page**  
+#### **5. Checkout Page**  
 [See the image of Checkout page here](mp4testing/images/checkout.png)  
 The Checkout page, includes an a brief overview of the products selected, as well as the user information needed to complete their order. 
 
-#### **7. Checkout Success Page**   
+#### **6. Checkout Success Page**   
 [See the image of Checkout Sucess page here](mp4testing/images/ordersuccessful.png)  
 The Successful order page, means that the user is directed there once their order is complete. Giving them a confirmation of the order details being sent to their inputted email address, as well as an overview of the products once again. 
 
-#### **8. Profile Page**  
+#### **7. Profile Page**  
 [See the image of Profile page - My Information here](mp4testing/images/profile.png)  
 The User's profile page displays the user's delivery information and their order history, with the option to navigate to an individual order or to update the delivery information. 
 
-#### **16. Register and Log In Page**  
+#### **8. Blogs Page**  
+[See the image of Blogs page here](mp4testing/images/blogspage.png)  
+- The Blogs page features all relevant blogs about shoes and accessories. This provides better customer experiences besides basic purchasing functionality and hopefully will increase users' engagement with the store.   
+- All blogs are featured in a card-like display, with an image, a title, a small part of the blog, and a Read the blog link that will bring the user to the Individual Blog page.   
+
+#### **9. Individual Blog Page**  
+[See the image of Blog page here](mp4testing/images/blogpage.png)  
+- The Individual Blog page features the blog itself, the image, the title, and the date created.   
+- Read more blogs button is placed on the bottom-center of the page to bring users back to the Blogs page. 
+
+#### **10. Contact Page**  
+[See the image of Contact page here](mp4testing/images/contactpage.png)  
+- The Contact Page features information on how to contact the store. It provides a phone number, email address, and a contact form.  
+- Users can fill out the contact form and submit it. The server side will store it in the database so the store admin can see and process all of the messages. 
+
+#### **11. Register and Log In Page**  
 [See the image of Signup page here](mp4testing/images/signup.png)  
 [See the image of Sign In page here](mp4testing/images/signin.png)  
 To register the user must give their email of choice as well as confirm the email address, a username and select a password. 
 
 When signing in the user must provide their corresponding username and password, with the option to remember the user and if password is forgotten, they can navigate to a page which allows for it to be recovered. 
 
-#### **17. Product Management / Add Product page (Admin / Superuser only)**  
+#### **12. Product Management / Add Product page (Admin / Superuser only)**  
 [See the image of Product Management page here](mp4testing/images/emptyproductmanagement.png)  
 Product manage is only available to superusers, it includes all the information required to add a product to the database, once all required fields are completed, the user can add the product. 
 
-#### **18. Edit Product page (Admin / Superuser only)**  
+#### **13. Edit Product page (Admin / Superuser only)**  
 [See the image of Edit Product page here](mp4testing/images/productedit.png)  
 Once here, the user can edit the products that they choose, once completed, they can submit and the products will have the amended fields added to the database. 
 
-#### **19. Delete Product Functionality (Admin / Superuser only)**  
+#### **14. Delete Product Functionality (Admin / Superuser only)**  
 A superuser is the only user capable of using this functionality, included on the products page, as well as the individual products page. 
 
 In doing this, the user will remove the product entirely from the page. 
@@ -557,7 +591,6 @@ This project is deployed on Heroku for production, with all static and media fil
    python3 manage.py loaddata categories
    python3 manage.py loaddata subcategories
    python3 manage.py loaddata products
-   python3 manage.py loaddata topics
    python3 manage.py loaddata blogs
 ```
 8. Set up a new superuser, fill out the username, email address, and password.
@@ -592,7 +625,7 @@ This project is deployed on Heroku for production, with all static and media fil
 ```
 12. Login to Heroku through CLI, using ```heroku login```. Once logged in, disable the collect static temporarily, so that Heroku won't try to collect static files when it deploys.
 ```
-   heroku config:set DISABLE_COLLECTSTATIC=1 --app mp4-sound-haven
+   heroku config:set DISABLE_COLLECTSTATIC=1 --app sound-haven
 ```
    And add the hostname of the Heroku app to allowed hosts in the project's settings.py, and also add localhost so that Gitpod will still work as well:  
 ```
@@ -600,7 +633,7 @@ This project is deployed on Heroku for production, with all static and media fil
 ```
 13. Add, commit, and push to gitpod and then to Heroku. After pushing to gitpod as usual, initialize git remote first:
 ```
-   heroku git:remote -a mp4-sound-haven
+   heroku git:remote -a sound-haven
 ```
    Then push to Heroku:
 ```
