@@ -25,9 +25,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
-# 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['sound-haven.herokuapp.com', 'localhost']
 
