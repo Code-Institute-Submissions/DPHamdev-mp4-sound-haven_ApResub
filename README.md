@@ -325,18 +325,18 @@ The User's profile page displays the user's delivery information and their order
 
 #### **8. Blogs Page**  
 [See the image of Blogs page here](mp4testing/images/blogspage.png)  
-- The Blogs page features all relevant blogs about shoes and accessories. This provides better customer experiences besides basic purchasing functionality and hopefully will increase users' engagement with the store.   
-- All blogs are featured in a card-like display, with an image, a title, a small part of the blog, and a Read the blog link that will bring the user to the Individual Blog page.   
+The Blogs page features all relevant blogs about shoes and accessories. This provides better customer experiences besides basic purchasing functionality and hopefully will increase users' engagement with the store.   
+All blogs are featured in a card-like display, with an image, a title, a small part of the blog, and a Read the blog link that will bring the user to the Individual Blog page.   
 
 #### **9. Individual Blog Page**  
 [See the image of Blog page here](mp4testing/images/blogpage.png)  
-- The Individual Blog page features the blog itself, the image, the title, and the date created.   
-- Read more blogs button is placed on the bottom-center of the page to bring users back to the Blogs page. 
+The Individual Blog page features the blog itself, the image, the title, and the date created.   
+Read more blogs button is placed on the bottom-center of the page to bring users back to the Blogs page. 
 
 #### **10. Contact Page**  
 [See the image of Contact page here](mp4testing/images/contactpage.png)  
-- The Contact Page features information on how to contact the store. It provides a phone number, email address, and a contact form.  
-- Users can fill out the contact form and submit it. The server side will store it in the database so the store admin can see and process all of the messages. 
+The Contact Page features information on how to contact the store. It provides a phone number, email address, and a contact form.  
+Users can fill out the contact form and submit it. The server side will store it in the database so the store admin can see and process all of the messages. 
 
 #### **11. Register and Log In Page**  
 [See the image of Signup page here](mp4testing/images/signup.png)  
